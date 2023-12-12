@@ -1,0 +1,55 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.parallax-container {
+  height: 20%;
+}
+
+.parallax img {
+  filter: grayscale(1);
+  opacity: 0.5 !important;
+}
+
+.clients img {
+  max-width: 150px;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+/* Tambahkan ini ke dalam tag <style> atau dalam file eksternal CSS */
+.social-follow {
+  margin-top: 20px;
+}
+
+.social-icon {
+  width: 40px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+}
+
+section,
+footer {
+  padding: 20px 0;
+}
+
+.margin {
+  margin-bottom: 10px;
+}
+.logo {
+  height: 60px; /* Sesuaikan tinggi logo sesuai kebutuhan */
+  width: auto; /* Lebar akan disesuaikan agar tetap proporsional */
+  margin-top: 10px; /* Sesuaikan jarak atas logo dari bagian atas navbar */
+}
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan efek bayangan pada kartu */
+  transition: box-shadow 0.3s ease; /* Animasi perubahan efek bayangan */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+}
+.card-title,
+.card-title,
+.price {
+  font-weight: bold; /* Menjadikan teks tebal */
+  color: rgb(8, 114, 8); /* Memberikan warna hijau */
+}

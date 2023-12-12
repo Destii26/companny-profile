@@ -1,0 +1,35 @@
+/* CSS Style for Product Gallery */
+
+.card-image {
+  overflow: hidden;
+}
+
+.card-image img {
+  transition: transform 0.2s;
+}
+
+.card-image:hover img {
+  transform: scale(1.1); /* Efek zoom saat mouse hover */
+}
+
+/* CSS Style for Product Price */
+.card-content {
+  position: relative;
+}
+
+.btn-buy {
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
+.price {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #0a15aa;
+  padding: 8px;
+  margin: 0;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  order: 1;
+}

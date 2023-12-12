@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-color: #f5f5f5;
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      header {
+        background-color: #1976d2;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      #layanan-perawatan {
+        padding: 40px 0;
+      }
+
+      .container {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h3 {
+        color: #1976d2;
+      }
+
+      p {
+        color: #424242;
+        line-height: 1.6;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 15px;
+      }
+
+      .booking-link {
+        color: #039be5;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    </style>
+
+    <!-- Add your existing head content here -->
+  </head>
+
+  <body id="perawatan" class="scrollspy">
+    <!-- Existing content... -->
+
+    <header>
+      <h1 style="margin: 0">Thunder Riders</h1>
+    </header>
+
+    <section id="layanan-perawatan" class="grey lighten-3 scrollspy">
+      <div class="container">
+        <h3 class="light center grey-text text-darken-3">
+          Layanan Perawatan Motor
+        </h3>
+        <p>
+          Kami menyediakan layanan perawatan motor dengan standar kualitas
+          tinggi. Tim profesional kami siap membantu menjaga kondisi motor Anda
+          tetap prima. Berikut beberapa layanan yang kami tawarkan:
+        </p>
+
+        <ul>
+          <li>
+            Perawatan rutin
+            <span
+              class="booking-link"
+              onclick="requestBooking('Perawatan Rutin')"
+              >Booking</span
+            >
+          </li>
+          <li>
+            Pengecekan mesin
+            <span
+              class="booking-link"
+              onclick="requestBooking('Pengecekan Mesin')"
+              >Booking</span
+            >
+          </li>
+          <li>
+            Penggantian suku cadang
+            <span
+              class="booking-link"
+              onclick="requestBooking('Penggantian Suku Cadang')"
+              >Booking</span
+            >
+          </li>
+          <li>
+            Layanan tune-up
+            <span
+              class="booking-link"
+              onclick="requestBooking('Layanan Tune-up')"
+              >Booking</span
+            >
+          </li>
+          <li>
+            Perbaikan kerusakan
+            <span
+              class="booking-link"
+              onclick="requestBooking('Perbaikan Kerusakan')"
+              >Booking</span
+            >
+          </li>
+        </ul>
+
+        <p>
+          Dengan pengalaman bertahun-tahun, kami berkomitmen memberikan
+          pelayanan terbaik untuk kebutuhan perawatan motor Anda. Jangan ragu
+          untuk menghubungi kami jika Anda memiliki pertanyaan atau ingin
+          membuat janji untuk layanan perawatan.
+        </p>
+      </div>
+    </section>
+
+    <!-- Add your existing script tags here -->
+
+    <script>
+      function requestBooking(service) {
+        alert("Booking requested for " + service);
+        // You can replace the alert with your actual booking logic
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const sideNav = document.querySelectorAll(".sidenav");
+        M.Sidenav.init(sideNav);
+
+        // Add initialization for other components if needed
+      });
+    </script>
+  </body>
+</html>
