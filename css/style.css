@@ -17,11 +17,8 @@
   max-width: 150px;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
 }
-
 .social-media {
   margin-top: 20px;
-  display: flex; /* Add flex display */
-  align-items: center; /* Align items in the center vertically */
 }
 
 .social-media a {
@@ -34,8 +31,17 @@
 .social-media img {
   width: 20px;
   height: 20px;
-  margin-right: 5px;
+
   vertical-align: middle;
+}
+
+section,
+footer {
+  padding: 20px 0;
+}
+
+.margin {
+  margin-bottom: 10px;
 }
 .logo {
   height: 60px; /* Sesuaikan tinggi logo sesuai kebutuhan */
@@ -55,4 +61,10 @@
 .price {
   font-weight: bold; /* Menjadikan teks tebal */
   color: rgb(8, 114, 8); /* Memberikan warna hijau */
+}
+.logo {
+  border-radius: 60%;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
 }
