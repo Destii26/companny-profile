@@ -17,39 +17,25 @@
   max-width: 150px;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
 }
-/* Tambahkan ini ke dalam tag <style> atau dalam file eksternal CSS */
-.social-icons {
-  text-align: center;
+
+.social-media {
   margin-top: 20px;
+  display: flex; /* Add flex display */
+  align-items: center; /* Align items in the center vertically */
 }
 
-.social-icons ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.social-icons li {
+.social-media a {
   display: inline-block;
   margin-right: 10px;
-}
-
-.social-icons a {
+  text-decoration: none;
   color: #fff;
-  font-size: 24px;
-  transition: color 0.3s ease;
 }
 
-.social-icons a:hover {
-  color: #00bcd4; /* Change to your desired hover color */
-}
-
-section,
-footer {
-  padding: 20px 0;
-}
-
-.margin {
-  margin-bottom: 10px;
+.social-media img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 .logo {
   height: 60px; /* Sesuaikan tinggi logo sesuai kebutuhan */
