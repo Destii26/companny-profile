@@ -1,333 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--Import Google Icon Font-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <!--Import materialize.css-->
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="css/materialize.min.css"
-      media="screen,projection"
-    />
-    <!-- My Css -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Lightbox CSS -->
-    <link rel="stylesheet" href="path/to/lightbox.css" />
-    <!-- CSS untuk produk kami -->
-
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thunder Riders - Produk kami</title>
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="path/to/lightbox.css" />
     <style>
-      /* Tambahkan CSS berikut untuk menyesuaikan tata letak harga dan tombol beli */
-      /* ... your existing styles ... */
-
-      header {
-        background-color: #1976d2;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
+      /* Tambahkan gaya tambahan sesuai kebutuhan Anda */
+      .accessory-card {
+        margin-bottom: 20px;
       }
 
-      header h1 {
-        margin: 0;
-        font-size: 2em;
-        font-weight: bold;
-      }
-
-      #services .row {
-        margin: 0;
-      }
-
-      #services h3 {
-        color: #1976d2; /* Change the heading text color */
-        background-color: #2196f3; /* Change the heading background color to blue */
-        padding: 10px; /* Add padding for better visual appearance */
-        border-radius: 5px; /* Add rounded corners to the heading */
-        text-align: center; /* Center the text within the heading */
+      .accessory-card img {
+        max-height: 200px; /* Sesuaikan tinggi gambar sesuai kebutuhan */
       }
     </style>
-    <title>Produk Kami</title>
   </head>
-  <body id="home" class="scrollspy">
-    <!-- services -->
-    <section id="services" class="services grey lighten-3 scrollspy">
-      <!-- ... (kode layanan Anda) ... -->
+  <body>
+    <!-- Header, Navbar, dan lainnya tetap seperti sebelumnya -->
 
-      <!-- Galeri Produk -->
-      <div class="row">
-        <h3 class="light bold center white-text text-darken-3">
-          Galeri Produk Thunder Riders
+    <!-- Konten Penjualan Aksesoris Motor -->
+    <section id="accessories" class="grey lighten-3 scrollspy">
+      <div class="container">
+        <h3 class="light center grey-text text-darken-3">
+          Penjualan motor baru dan bekas
         </h3>
-        <!-- Kartu Motor 1 -->
+        <div class="row">
+          <!-- Card Aksesoris Motor 1 -->
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr1.jpg" alt="Aksesoris 1" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai motor ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 25.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
+            </div>
+          </div>
 
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <a
-                href="img/produk/15.jpg"
-                data-lightbox="product-gallery"
-                data-title="Motor 1"
-              >
-                <img
-                  src="img/produk/15.jpg"
-                  class="responsive-img"
-                  alt="Motor 1"
-                />
-              </a>
-            </div>
-            <div class="card-content">
-              <span class="card-title">Motor 1</span>
-              <p class="price">Rp 10.000.000</p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur, adipisicing elit.
-                Laudantium, quibusdam.
-              </p>
-              <a href="#" class="waves-effect waves-light btn btn-buy">Beli</a>
+          <!-- Card Aksesoris Motor 2 -->
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr2.jpg" alt="Aksesoris 2" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai motor ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 25.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <a
-                href="img/produk/14.jpg"
-                data-lightbox="product-gallery"
-                data-title="Motor 2"
-              >
-                <img
-                  src="img/produk/14.jpg"
-                  class="responsive-img"
-                  alt="Motor 2"
-                />
-              </a>
-            </div>
-            <div class="card-content">
-              <span class="card-title">Motor 2</span>
-              <p class="price">Rp 10.000.000</p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur, adipisicing elit.
-                Laudantium, quibusdam.
-              </p>
-              <a href="#" class="waves-effect waves-light btn btn-buy">Beli</a>
+
+          <!-- Card Aksesoris Motor 3 -->
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr3.jpg" alt="Aksesoris 3" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai aksesoris ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 30.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <a
-                href="img/produk/15.jpg"
-                data-lightbox="product-gallery"
-                data-title="Motor 3"
-              >
-                <img
-                  src="img/produk/15.jpg"
-                  class="responsive-img"
-                  alt="Motor 3"
-                />
-              </a>
-            </div>
-            <div class="card-content">
-              <span class="card-title">Motor 3</span>
-              <p class="price">Rp 10.000.000</p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur, adipisicing elit.
-                Laudantium, quibusdam.
-              </p>
-              <a href="#" class="waves-effect waves-light btn btn-buy">Beli</a>
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr4.jpg" alt="Aksesoris 3" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai aksesoris ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 30.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <a
-                href="img/produk/15.jpg"
-                data-lightbox="product-gallery"
-                data-title="Motor 1"
-              >
-                <img
-                  src="img/produk/15.jpg"
-                  class="responsive-img"
-                  alt="Motor 1"
-                />
-              </a>
-            </div>
-            <div class="card-content">
-              <span class="card-title">Motor 4</span>
-              <p class="price">Rp 10.000.000</p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur, adipisicing elit.
-                Laudantium, quibusdam.
-              </p>
-              <a href="#" class="waves-effect waves-light btn btn-buy">Beli</a>
+          <!-- Card Aksesoris Motor 1 -->
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr1.jpg" alt="Aksesoris 1" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai motor ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 25.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <a
-                href="img/produk/14.jpg"
-                data-lightbox="product-gallery"
-                data-title="Motor 4"
-              >
-                <img
-                  src="img/produk/14.jpg"
-                  class="responsive-img"
-                  alt="Motor 4"
-                />
-              </a>
-            </div>
-            <div class="card-content">
-              <span class="card-title">Motor 5</span>
-              <p class="price">Rp 10.000.000</p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur, adipisicing elit.
-                Laudantium, quibusdam.
-              </p>
-              <a href="#" class="waves-effect waves-light btn btn-buy">Beli</a>
+
+          <!-- Card Aksesoris Motor 2 -->
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr2.jpg" alt="Aksesoris 2" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai motor ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 25.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <a
-                href="img/produk/15.jpg"
-                data-lightbox="product-gallery"
-                data-title="Motor 6"
-              >
-                <img
-                  src="img/produk/15.jpg"
-                  class="responsive-img"
-                  alt="Motor 6"
-                />
-              </a>
-            </div>
-            <div class="card-content">
-              <span class="card-title">Motor 6</span>
-              <p class="price">Rp 10.000.000</p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur, adipisicing elit.
-                Laudantium, quibusdam.
-              </p>
-              <a href="#" class="waves-effect waves-light btn btn-buy">Beli</a>
+
+          <!-- Card Aksesoris Motor 3 -->
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr3.jpg" alt="Aksesoris 3" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai aksesoris ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 30.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <a
-                href="img/produk/15.jpg"
-                data-lightbox="product-gallery"
-                data-title="Motor 6"
-              >
-                <img
-                  src="img/produk/15.jpg"
-                  class="responsive-img"
-                  alt="Motor 6"
-                />
-              </a>
-            </div>
-            <div class="card-content">
-              <span class="card-title">Motor 7</span>
-              <p class="price">Rp 10.000.000</p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur, adipisicing elit.
-                Laudantium, quibusdam.
-              </p>
-              <a href="#" class="waves-effect waves-light btn btn-buy">Beli</a>
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr4.jpg" alt="Aksesoris 3" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai aksesoris ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 30.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <a
-                href="img/produk/14.jpg"
-                data-lightbox="product-gallery"
-                data-title="Motor 7"
-              >
-                <img
-                  src="img/produk/14.jpg"
-                  class="responsive-img"
-                  alt="Motor 7"
-                />
-              </a>
-            </div>
-            <div class="card-content">
-              <span class="card-title">Motor 8</span>
-              <p class="price">Rp 10.000.000</p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur, adipisicing elit.
-                Laudantium, quibusdam.
-              </p>
-              <a href="#" class="waves-effect waves-light btn btn-buy">Beli</a>
+          <!-- Card Aksesoris Motor 1 -->
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr1.jpg" alt="Aksesoris 1" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai motor ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 25.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <a
-                href="img/produk/15.jpg"
-                data-lightbox="product-gallery"
-                data-title="Motor 8"
-              >
-                <img
-                  src="img/produk/15.jpg"
-                  class="responsive-img"
-                  alt="Motor 8"
-                />
-              </a>
-            </div>
-            <div class="card-content">
-              <span class="card-title">Motor 9</span>
-              <p class="price">Rp 10.000.000</p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur, adipisicing elit.
-                Laudantium, quibusdam.
-              </p>
-              <a href="#" class="waves-effect waves-light btn btn-buy">Beli</a>
+
+          <!-- Card Aksesoris Motor 2 -->
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr2.jpg" alt="Aksesoris 2" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai motor ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 25.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
             </div>
           </div>
+
+          <!-- Card Aksesoris Motor 3 -->
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr3.jpg" alt="Aksesoris 3" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai aksesoris ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 30.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr4.jpg" alt="Aksesoris 3" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai aksesoris ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 30.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card Aksesoris Motor 1 -->
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr1.jpg" alt="Aksesoris 1" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai motor ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 25.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card Aksesoris Motor 2 -->
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr2.jpg" alt="Aksesoris 2" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai motor ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 25.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card Aksesoris Motor 3 -->
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr3.jpg" alt="Aksesoris 3" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai aksesoris ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 30.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card accessory-card">
+              <div class="card-image">
+                <img src="img/produk/pr4.jpg" alt="Aksesoris 3" />
+              </div>
+              <div class="card-content">
+                <p>Deskripsi singkat mengenai aksesoris ini.</p>
+              </div>
+              <div class="card-action">
+                <span class="price">Rp 30.000.000</span>
+                <a href="#" class="btn blue darken-2">Beli</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card selanjutnya bisa ditambahkan di sini -->
         </div>
       </div>
     </section>
 
-    <!-- JavaScript at end of body for optimized loading -->
+    <!-- Sisanya tetap seperti sebelumnya -->
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <!-- Lightbox JS -->
     <script src="path/to/lightbox.js"></script>
     <script>
+      // Inisialisasi Materialize dan Lightbox
       document.addEventListener("DOMContentLoaded", function () {
-        const sideNav = document.querySelectorAll(".sidenav");
-        M.Sidenav.init(sideNav);
+        // ... kode inisialisasi Materialize sebelumnya ...
 
-        const slider = document.querySelectorAll(".slider");
-        M.Slider.init(slider, {
-          indicators: false,
-          height: 500,
-          transition: 600,
-          interval: 3000,
-        });
-
-        const parallax = document.querySelectorAll(".parallax");
-        M.Parallax.init(parallax);
-
-        const materialbox = document.querySelectorAll(".materialboxed");
-        M.Materialbox.init(materialbox);
-
-        const scroll = document.querySelectorAll(".scrollspy");
-        M.ScrollSpy.init(scroll, {
-          scrollOffset: 50,
-        });
-
+        // Inisialisasi Lightbox
         lightbox.option({
           resizeDuration: 200,
           wrapAround: true,
