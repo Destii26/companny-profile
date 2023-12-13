@@ -18,12 +18,29 @@
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
 }
 /* Tambahkan ini ke dalam tag <style> atau dalam file eksternal CSS */
-.social-follow {
+.social-icons {
+  text-align: center;
   margin-top: 20px;
 }
 
-.social-icon {
-  width: 40px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+.social-icons ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00bcd4; /* Change to your desired hover color */
 }
 
 section,
